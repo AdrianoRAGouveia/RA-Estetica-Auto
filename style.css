@@ -1,0 +1,168 @@
+/*Estilo 1*/
+
+* {
+    margin: 0;                              /*margem de visualização da pagina */
+    padding: 0;                             /*configuração de escritas (afastamento do conteúdo das margens*/
+    box-sizing: border-box;                 /*usada para escolher as alturas e larguras dos elementos na tela*/
+}
+
+
+header {
+font-family: 'Bruno Ace SC', cursive;
+font-family: 'Bungee', cursive;
+}
+
+
+/* Estilo 2*/
+
+header {                                   /*cabeçalho*/
+    padding: 8px 0;                       /* 16px =altaura do cabeçalho  e 0 = espaçamento do da borda lateral esquerda*/
+    background-color: #1c06ae;           /*cor de fundo */
+    color: #f6f2f2;                      /*cor das letras*/
+}
+
+header nav li {                             /*cabeçalho  (NAV = navega para outro parte da pg) (li =lista ordenada)*/
+    display: inline;                        /* apresentação em linha */
+    margin-left: 16px;                      /*margem da lista para direita */
+    font-size: 18px;                        /*tamanho da letra*/
+}
+
+header nav li a {
+    color: #fafcfd;                          /* cor da letra */
+    text-decoration: none;                     /*underline desativado */
+}
+
+/*Estilo 3 */
+
+.container {
+    max-width: 1280px;                          /* tamanho da tela para notebook */
+    width: 100%;                                /* largura de 100%*/
+    margin: 0 auto;                               /*margem automatico para note e mobile*/
+}
+
+/*Estilo 4*/
+
+header .container,
+section .container {
+    display: flex;                              /*separação dos itens */
+    align-items: center;                        /*alinhamento dentro de um bloco*/
+    justify-content: space-between;             /* espaçamento de um iém para o outro (entre eles)*/
+}
+
+
+/* Estilo 6*/
+.lista-ícones img {          /* lista de icones  na imagem */
+    height: 87px;           /* tamanho dos ícones */
+}
+
+.lista-ícones li {       /*lista de icones na parte do li*/
+    display: inline;    /*localizado em linha */
+    margin-right: 8px;
+}
+
+img {
+    height: 500px ;
+}
+
+
+/*Estilo 7*/
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {     /* seção no h2*/
+    margin-bottom: 16px;
+}
+
+section h2 {
+    color: #1c06ae;
+}
+
+section p {              /*na seção na linha p*/
+    margin-bottom: 8px;
+}
+
+/*Estilo 8*/
+
+.foto-carro {
+margin-right: 32px;
+}
+
+
+/*Estrutura de CONTATO*/
+
+
+#contact .container {
+    display: block;
+    
+    
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+.social-links img {
+    height: 30px;
+}
+.social-links li{
+    display: inline;
+    margin-right: 20px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+#contact .container{
+    display: block;
+}
+
+
+/* Seção fale conosco */
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #1c06ae;
+    color: white;
+    border : none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1c06ae;
+}
+
+input:focus,
+textarea:focus {
+    outline: #1c06ae;
+}
+
+footer {
+    
+    background-color: #1c06ae ;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+/*Seção das imagens sociais*/
+
